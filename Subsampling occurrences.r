@@ -26,7 +26,7 @@ repl <- 100
 Overlap <- matrix(NA, nrow=repl, ncol=1)
 dimnames(Overlap) <- list(paste("round_", c(1:repl), sep=""), "Overlap")
 
-## For each iteratio subset the data and perfome the noche overlap analysis## 
+## For each iteration subset the data and perform the niche overlap analysis## 
 for (samples in 1:repl)
 {
 for(r in seq_along(bins))
